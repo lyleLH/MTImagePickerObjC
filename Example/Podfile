@@ -1,3 +1,5 @@
+source 'https://github.com/lyleLH/MTSpecs.git'
+source 'https://cdn.cocoapods.org/'                  #官方仓库地址 cdn
 use_frameworks!
 target 'MTImagePickerObjC_Tests' do
   pod 'MTImagePickerObjC', :path => '../'

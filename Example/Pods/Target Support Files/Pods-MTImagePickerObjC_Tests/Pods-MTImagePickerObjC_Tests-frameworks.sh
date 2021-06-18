@@ -197,10 +197,22 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MTCategoryComponent/MTCategoryComponent.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MTImagePickerObjC/MTImagePickerObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MTLayoutUtilityComponent/MTLayoutUtilityComponent.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MTCategoryComponent/MTCategoryComponent.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MTImagePickerObjC/MTImagePickerObjC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MTLayoutUtilityComponent/MTLayoutUtilityComponent.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

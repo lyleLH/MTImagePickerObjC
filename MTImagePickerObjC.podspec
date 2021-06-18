@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MTImagePickerObjC'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MTImagePickerObjC.'
+  s.summary          = '一个模仿snapseed样式的图片选择器 image  previewer & picker'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+样式参照snapseed，但是支持多选，同时代码结构有着良好的设计，实现了VIPER架构。支持简单的预览减少错选的几率，同时增加了多选的功能。
                        DESC
 
-  s.homepage         = 'https://github.com/v2top1@163.com/MTImagePickerObjC'
+  s.homepage         = 'https://github.com/lyleLH/MTImagePickerObjC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'v2top1@163.com' => 'v2top1@163.com' }
-  s.source           = { :git => 'https://github.com/v2top1@163.com/MTImagePickerObjC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lyleLH/MTImagePickerObjC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'pop'
+  s.dependency 'MTLayoutUtilityComponent'
+  s.dependency 'MTCategoryComponent'
 end

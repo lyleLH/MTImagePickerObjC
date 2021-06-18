@@ -1,16 +1,75 @@
 PODS:
-  - MTImagePickerObjC (0.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MTCategoryComponent (1.2.0):
+    - MTCategoryComponent/Foundation (= 1.2.0)
+    - MTCategoryComponent/UIKit (= 1.2.0)
+  - MTCategoryComponent/Foundation (1.2.0):
+    - MTCategoryComponent/Foundation/Sources (= 1.2.0)
+  - MTCategoryComponent/Foundation/Sources (1.2.0)
+  - MTCategoryComponent/UIKit (1.2.0):
+    - MTCategoryComponent/UIKit/UIColor (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIControl (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIImage (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIImageView (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIResponder (= 1.2.0)
+    - MTCategoryComponent/UIKit/UITableView (= 1.2.0)
+    - MTCategoryComponent/UIKit/UITextField (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIView (= 1.2.0)
+    - MTCategoryComponent/UIKit/UIViewController (= 1.2.0)
+  - MTCategoryComponent/UIKit/UIColor (1.2.0)
+  - MTCategoryComponent/UIKit/UIControl (1.2.0)
+  - MTCategoryComponent/UIKit/UIImage (1.2.0):
+    - MTCategoryComponent/UIKit/UIColor
+    - MTCategoryComponent/UIKit/UIView
+  - MTCategoryComponent/UIKit/UIImageView (1.2.0)
+  - MTCategoryComponent/UIKit/UIResponder (1.2.0)
+  - MTCategoryComponent/UIKit/UITableView (1.2.0)
+  - MTCategoryComponent/UIKit/UITextField (1.2.0)
+  - MTCategoryComponent/UIKit/UIView (1.2.0):
+    - MTCategoryComponent/UIKit/UIColor
+  - MTCategoryComponent/UIKit/UIViewController (1.2.0):
+    - MBProgressHUD
+    - MTCategoryComponent/UIKit/UIColor
+    - Toast
+  - MTImagePickerObjC (0.1.0):
+    - MTCategoryComponent
+    - MTLayoutUtilityComponent
+    - pop
+  - MTLayoutUtilityComponent (1.0.1):
+    - Masonry
+    - MTLayoutUtilityComponent/MTMasConstraintMaker (= 1.0.1)
+  - MTLayoutUtilityComponent/MTMasConstraintMaker (1.0.1):
+    - Masonry
+  - pop (1.0.12)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - MTImagePickerObjC (from `../`)
+
+SPEC REPOS:
+  https://github.com/lyleLH/MTSpecs:
+    - MTCategoryComponent
+    - MTLayoutUtilityComponent
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - pop
+    - Toast
 
 EXTERNAL SOURCES:
   MTImagePickerObjC:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTImagePickerObjC: c95cb4a8f5646234b7cff8b4c1e0b5cd63581374
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MTCategoryComponent: d90653035bd2c6f7da188f9b4a34b8e3ad845e40
+  MTImagePickerObjC: e1b42b9c03f97996c03477a0041e77766c031b1b
+  MTLayoutUtilityComponent: fd2d96fd8e3c3214b595f32b5e2fb7aceab61336
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 20fac321e2e97112312a5f99f2077695c54873a3
+PODFILE CHECKSUM: 04e8ba7fdb6b9545791c0dac1b805c7db69edfcb
 
 COCOAPODS: 1.9.3
