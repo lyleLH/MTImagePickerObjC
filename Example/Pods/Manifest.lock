@@ -1,0 +1,16 @@
+PODS:
+  - MTImagePickerObjC (0.1.0)
+
+DEPENDENCIES:
+  - MTImagePickerObjC (from `../`)
+
+EXTERNAL SOURCES:
+  MTImagePickerObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTImagePickerObjC: c95cb4a8f5646234b7cff8b4c1e0b5cd63581374
+
+PODFILE CHECKSUM: 20fac321e2e97112312a5f99f2077695c54873a3
+
+COCOAPODS: 1.9.3

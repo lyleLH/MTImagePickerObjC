@@ -1,0 +1,22 @@
+{
+  "name": "MTImagePickerObjC",
+  "version": "0.1.0",
+  "summary": "A short description of MTImagePickerObjC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/v2top1@163.com/MTImagePickerObjC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "v2top1@163.com": "v2top1@163.com"
+  },
+  "source": {
+    "git": "https://github.com/v2top1@163.com/MTImagePickerObjC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MTImagePickerObjC/Classes/**/*"
+}
