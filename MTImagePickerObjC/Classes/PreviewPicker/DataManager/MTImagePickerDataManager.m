@@ -52,11 +52,25 @@
     
     NSMutableArray * pureImages = [NSMutableArray new];
     PHImageRequestOptions *options = [[PHImageRequestOptions alloc]init];
-    options.resizeMode = PHImageRequestOptionsResizeModeFast;
+//    options.resizeMode = PHImageRequestOptionsResizeModeFast;
+    options.synchronous = YES;
     [self.selectedImageModels enumerateObjectsUsingBlock:^(MTImageModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [[PHImageManager defaultManager]requestImageForAsset:obj.asset targetSize:[UIScreen mainScreen].bounds.size contentMode:PHImageContentModeDefault options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
-            [pureImages addObject:result];
-        }];
+        
+        
+//        [[PHImageManager defaultManager]requestImageForAsset:obj.asset targetSize:[UIScreen mainScreen].bounds.size contentMode:PHImageContentModeDefault options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+//            [pureImages addObject:result];
+//        }];
+        
+        [[PHImageManager defaultManager] requestImageDataForAsset:obj.asset
+                                                          options:options
+                                                    resultHandler:^(NSData * _Nullable imageData, NSString * _Nullable dataUTI, UIImageOrientation orientation, NSDictionary * _Nullable info) {
+                                                        if (imageData) {
+                                                            UIImage *image = [[UIImage alloc] initWithData:imageData];
+                                                            [pureImages addObject:image];
+                                                        }
+                                                    }];
+        
+        
     }];
     return [NSArray arrayWithArray:pureImages];
     
