@@ -46,6 +46,10 @@
     [self.presenter getSelectedImagesPrepared:[self.dataManager selectedImages]] ;
 }
 
+- (void)getAllSelectedImageAssets {
+    [self.presenter getSelectedImageAssetsPrepared:[self.dataManager selectedImageAssets]] ;
+}
+
 
 
 @end

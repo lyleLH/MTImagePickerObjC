@@ -12,6 +12,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		749748E991C4E5D39C5EF970 /* Pods_PickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2BC3F2F72F6AA473DA919A /* Pods_PickerDemo.framework */; };
+		C88718AC267F13D100E9D03C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C88718AB267F13D100E9D03C /* AppDelegate.m */; };
+		C88718B2267F13D100E9D03C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88718B1267F13D100E9D03C /* ViewController.m */; };
+		C88718B5267F13D100E9D03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88718B3267F13D100E9D03C /* Main.storyboard */; };
+		C88718B7267F13D300E9D03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88718B6267F13D300E9D03C /* Assets.xcassets */; };
+		C88718BA267F13D300E9D03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88718B8267F13D300E9D03C /* LaunchScreen.storyboard */; };
+		C88718BD267F13D300E9D03C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C88718BC267F13D300E9D03C /* main.m */; };
 		F77E53463A6425A5CA241454 /* Pods_MTImagePickerObjC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0D817F6BDEA17F32924BFF /* Pods_MTImagePickerObjC_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +33,22 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		73A8D3A154566F7C8CB0BBB7 /* MTImagePickerObjC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MTImagePickerObjC.podspec; path = ../MTImagePickerObjC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88F6B15B91E4C8A0740C12BA /* Pods-PickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerDemo.debug.xcconfig"; path = "Target Support Files/Pods-PickerDemo/Pods-PickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8A6C7A25ED8D6EFAF57E82DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9C1E61B6E6D336B23F3323D5 /* Pods-MTImagePickerObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTImagePickerObjC_Tests.release.xcconfig"; path = "Target Support Files/Pods-MTImagePickerObjC_Tests/Pods-MTImagePickerObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA2BC3F2F72F6AA473DA919A /* Pods_PickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4CFF91A46BBF4983D636A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C88718A8267F13D100E9D03C /* PickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88718AA267F13D100E9D03C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C88718AB267F13D100E9D03C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C88718B0267F13D100E9D03C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C88718B1267F13D100E9D03C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C88718B4267F13D100E9D03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C88718B6267F13D300E9D03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88718B9267F13D300E9D03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C88718BB267F13D300E9D03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88718BC267F13D300E9D03C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC08BCB24614F848D2377B73 /* Pods-PickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerDemo.release.xcconfig"; path = "Target Support Files/Pods-PickerDemo/Pods-PickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CC0D817F6BDEA17F32924BFF /* Pods_MTImagePickerObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTImagePickerObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83740F055648D7062083CB /* Pods-MTImagePickerObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTImagePickerObjC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MTImagePickerObjC_Tests/Pods-MTImagePickerObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C88718A5267F13D100E9D03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749748E991C4E5D39C5EF970 /* Pods_PickerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +81,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				C88718A9267F13D100E9D03C /* PickerDemo */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				CFAB85DB6BFD8A306476C91D /* Pods */,
@@ -63,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5AE195388D20070C39A /* MTImagePickerObjC_Tests.xctest */,
+				C88718A8267F13D100E9D03C /* PickerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +105,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				CC0D817F6BDEA17F32924BFF /* Pods_MTImagePickerObjC_Tests.framework */,
+				AA2BC3F2F72F6AA473DA919A /* Pods_PickerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,11 +139,29 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		C88718A9267F13D100E9D03C /* PickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C88718AA267F13D100E9D03C /* AppDelegate.h */,
+				C88718AB267F13D100E9D03C /* AppDelegate.m */,
+				C88718B0267F13D100E9D03C /* ViewController.h */,
+				C88718B1267F13D100E9D03C /* ViewController.m */,
+				C88718B3267F13D100E9D03C /* Main.storyboard */,
+				C88718B6267F13D300E9D03C /* Assets.xcassets */,
+				C88718B8267F13D300E9D03C /* LaunchScreen.storyboard */,
+				C88718BB267F13D300E9D03C /* Info.plist */,
+				C88718BC267F13D300E9D03C /* main.m */,
+			);
+			path = PickerDemo;
+			sourceTree = "<group>";
+		};
 		CFAB85DB6BFD8A306476C91D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				ED83740F055648D7062083CB /* Pods-MTImagePickerObjC_Tests.debug.xcconfig */,
 				9C1E61B6E6D336B23F3323D5 /* Pods-MTImagePickerObjC_Tests.release.xcconfig */,
+				88F6B15B91E4C8A0740C12BA /* Pods-PickerDemo.debug.xcconfig */,
+				CC08BCB24614F848D2377B73 /* Pods-PickerDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -139,6 +188,25 @@
 			productReference = 6003F5AE195388D20070C39A /* MTImagePickerObjC_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C88718A7267F13D100E9D03C /* PickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88718C0267F13D300E9D03C /* Build configuration list for PBXNativeTarget "PickerDemo" */;
+			buildPhases = (
+				09DB0D8E9F25105DCD40C32C /* [CP] Check Pods Manifest.lock */,
+				C88718A4267F13D100E9D03C /* Sources */,
+				C88718A5267F13D100E9D03C /* Frameworks */,
+				C88718A6267F13D100E9D03C /* Resources */,
+				5BA1C527C2E03175D6BEAD53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerDemo;
+			productName = PickerDemo;
+			productReference = C88718A8267F13D100E9D03C /* PickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +219,11 @@
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					C88718A7267F13D100E9D03C = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 9YAL9X38J8;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -169,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* MTImagePickerObjC_Tests */,
+				C88718A7267F13D100E9D03C /* PickerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -182,9 +256,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C88718A6267F13D100E9D03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88718BA267F13D300E9D03C /* LaunchScreen.storyboard in Resources */,
+				C88718B7267F13D300E9D03C /* Assets.xcassets in Resources */,
+				C88718B5267F13D100E9D03C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09DB0D8E9F25105DCD40C32C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5A1CF4A76C0756B8B6513B69 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +313,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5BA1C527C2E03175D6BEAD53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerDemo/Pods-PickerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS14.4/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MTCategoryComponent-iOS14.4/MTCategoryComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/MTImagePickerObjC-iOS14.4/MTImagePickerObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/MTLayoutUtilityComponent-iOS14.4/MTLayoutUtilityComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry-iOS14.4/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-iOS14.4/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/pop-iOS14.4/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTCategoryComponent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTImagePickerObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTLayoutUtilityComponent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickerDemo/Pods-PickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FF2B5E0B9C518EDBA8A8795E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,13 +350,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MTImagePickerObjC_Tests/Pods-MTImagePickerObjC_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MTCategoryComponent/MTCategoryComponent.framework",
-				"${BUILT_PRODUCTS_DIR}/MTImagePickerObjC/MTImagePickerObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/MTLayoutUtilityComponent/MTLayoutUtilityComponent.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
-				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD-iOS9.3/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MTCategoryComponent-iOS9.3/MTCategoryComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/MTImagePickerObjC-iOS9.3/MTImagePickerObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/MTLayoutUtilityComponent-iOS9.3/MTLayoutUtilityComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry-iOS9.3/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-iOS9.3/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/pop-iOS9.3/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -248,6 +384,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C88718A4267F13D100E9D03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88718B2267F13D100E9D03C /* ViewController.m in Sources */,
+				C88718AC267F13D100E9D03C /* AppDelegate.m in Sources */,
+				C88718BD267F13D300E9D03C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -257,6 +403,22 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C88718B3267F13D100E9D03C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88718B4267F13D100E9D03C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C88718B8267F13D300E9D03C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88718B9267F13D300E9D03C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,6 +541,89 @@
 			};
 			name = Release;
 		};
+		C88718BE267F13D300E9D03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F6B15B91E4C8A0740C12BA /* Pods-PickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9YAL9X38J8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyle.PickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C88718BF267F13D300E9D03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC08BCB24614F848D2377B73 /* Pods-PickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9YAL9X38J8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = PickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyle.PickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,6 +641,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88718C0267F13D300E9D03C /* Build configuration list for PBXNativeTarget "PickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88718BE267F13D300E9D03C /* Debug */,
+				C88718BF267F13D300E9D03C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

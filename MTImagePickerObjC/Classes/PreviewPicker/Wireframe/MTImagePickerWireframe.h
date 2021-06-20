@@ -23,5 +23,5 @@
 
 // initialization
 - (void)presentSelfFromViewController:(UIViewController *)viewController;
-
+- (void)hideMenu;
 @end

@@ -1,0 +1,6 @@
+framework module MTLayoutUtilityComponent {
+  umbrella header "MTLayoutUtilityComponent-iOS9.3-umbrella.h"
+
+  export *
+  module * { export * }
+}

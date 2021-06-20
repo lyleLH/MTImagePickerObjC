@@ -29,7 +29,7 @@
 }
 
 - (void)menuTableViewViewDidselected:(NSIndexPath*)indexPath  {
-    [self.interactor getAllSelectedImages];
+    [self.interactor getAllSelectedImageAssets];
 }
  
 #pragma mark -- MTImagePickerInteractorOutputProtocol
@@ -43,6 +43,10 @@
     [self.wireframe.picker.delegate imagePickerDidselectedImages:images];
 }
 
+- (void)getSelectedImageAssetsPrepared:(NSArray *)images {
+    [self.wireframe hideMenu];
+    [self.wireframe.picker.delegate imagePickerDidselectedImageAssets:images];
+}
 
 
 - (MTImagePickerInteractor<MTImagePickerInteractorInputProtocol> *)interactor {

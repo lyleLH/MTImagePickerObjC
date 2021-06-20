@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MTImagePicker : NSObject
 
 @property (nonatomic,weak)id <MTImagePickerProtocol>delegate;
-- (void)showImagePickerInViewController:(UIViewController*)vc withDelegate:(id)delegate;
+- (void)showImagePickerInViewController:(UIViewController*)vc withDelegate:(id<MTImagePickerProtocol>)delegate;
 @end
 
 NS_ASSUME_NONNULL_END

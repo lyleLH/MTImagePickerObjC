@@ -12,7 +12,7 @@
 #import "MTPickerMenuView.h"
 @interface MTImagePickerWireframe ()
 
-
+@property (nonatomic, strong) MTPopHelperView* helperView ;
 @property (nonatomic, strong) MTPickerMenuView * previewView;
 @end
 
@@ -27,8 +27,9 @@
 
     
     
-    MTPopHelperView* helperView =   [[MTPopHelperView alloc]initWithFrame:viewController.view.bounds];
-    [viewController.view addSubview:helperView];
+    MTPopHelperView* helperView =   [[MTPopHelperView alloc]initWithFrame:[UIApplication sharedApplication].delegate.window.bounds];
+    self.helperView = helperView;
+    [[UIApplication sharedApplication].delegate.window  addSubview:helperView];
     
     [helperView showPopContentView:self.previewView];
     
@@ -37,6 +38,11 @@
    
     [self.presenter setUpViews];
 }
+
+- (void)hideMenu {
+    [self.helperView hideContentView];
+}
+
 
 
 - (MTImagePickerPresenter *)presenter {

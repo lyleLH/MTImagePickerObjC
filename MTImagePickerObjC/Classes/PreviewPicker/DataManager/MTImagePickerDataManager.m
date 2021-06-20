@@ -75,4 +75,15 @@
     return [NSArray arrayWithArray:pureImages];
     
 }
+
+- (NSArray<PHAsset *> *)selectedImageAssets {
+    NSMutableArray * imageAssets = [NSMutableArray new];
+    [self.selectedImageModels enumerateObjectsUsingBlock:^(MTImageModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [imageAssets addObject:obj.asset];
+    }];
+    return [NSArray arrayWithArray:imageAssets];
+    
+}
+
+
 @end

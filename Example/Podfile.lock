@@ -48,7 +48,7 @@ DEPENDENCIES:
   - MTImagePickerObjC (from `../`)
 
 SPEC REPOS:
-  https://github.com/lyleLH/MTSpecs:
+  https://github.com/lyleLH/MTSpecs.git:
     - MTCategoryComponent
     - MTLayoutUtilityComponent
   trunk:
@@ -70,6 +70,6 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 04e8ba7fdb6b9545791c0dac1b805c7db69edfcb
+PODFILE CHECKSUM: a68a6afed622039b9db19d01a919f8ed7aadbdc7
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

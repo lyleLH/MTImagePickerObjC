@@ -17,4 +17,7 @@
 @property (nonatomic ,strong) NSMutableArray <MTImageModel*>*selectedImageModels;
 
 - (NSArray <UIImage*>*)selectedImages;
+
+- (NSArray <PHAsset*>*)selectedImageAssets;
+
 @end

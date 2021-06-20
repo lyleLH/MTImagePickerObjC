@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)imagePickerDidselectedImages:(NSArray*)images;
 
+- (void)imagePickerDidselectedImageAssets:(NSArray*)imageAssets;
 @end
 
 NS_ASSUME_NONNULL_END

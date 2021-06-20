@@ -6,3 +6,9 @@ target 'MTImagePickerObjC_Tests' do
   
   
 end
+
+target 'PickerDemo' do
+  pod 'MTImagePickerObjC', :path => '../'
+  
+  
+end
